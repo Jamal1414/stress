@@ -1,0 +1,35 @@
+    .btn-spacing {
+        margin-right: 5px;
+        margin-bottom: 5px; /* Tambahkan margin bawah agar tombol tidak berdekatan secara vertikal */
+    }
+
+    .btn-group .btn {
+        border-radius: 4px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-group .btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .show-btn:hover, .edit-btn:hover, .delete-btn:hover {
+        opacity: 0.8;
+    }
+
+    .show-btn, .edit-btn, .delete-btn {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .edit-btn {
+        margin-left: 5px;
+    }
+
+    .delete-btn {
+        margin-left: 5px;
+    }
+
+
+   
+ 
